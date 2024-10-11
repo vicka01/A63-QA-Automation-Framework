@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -27,5 +28,6 @@ public void play() {
      WebElement pauseBtn = driver.findElement(By.cssSelector("span[class='pause']"));
      return pauseBtn.isDisplayed();
  }
+
 
 }
