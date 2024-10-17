@@ -24,7 +24,7 @@ public class Homework21 extends BaseTest{
         action.doubleClick(playlist).perform();
     }
 public void editPlaylist() {
-        WebElement newNameField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("input[type='text']")));
+        WebElement newNameField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("[name='name']")));
         newNameField.clear();
         newNameField.sendKeys("newNamePlaylist");
         newNameField.submit();
