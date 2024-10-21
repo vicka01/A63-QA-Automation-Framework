@@ -28,7 +28,6 @@ public class LoginTests extends BaseTest {
         loginPage.provideEmail("victoria.mereneanu@testpro.io");
         loginPage.providePassword("Testpro1234$");
         loginPage.clickSubmit();
-        homePage.nextSong();
         homePage.play();
         Assert.assertTrue(homePage.isSongPlaying());
     }

@@ -9,7 +9,7 @@ public class HomePage extends BasePage  {
             return findElement(userAvatarIcon).isDisplayed();
     }
     By nextSongBtn = By.cssSelector("i[data-testid='play-next-btn']");
-    By playBtn = By.cssSelector("div[class='side player-controls']");
+    By playBtn = By.cssSelector("span[data-testid='play-btn']");
     By pauseBtn = By.cssSelector("span[class='pause']");
 
         public void nextSong() {
